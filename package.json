@@ -12,7 +12,7 @@
     "lint": "eslint .",
     "start": "node .",
     "secure": "nsp check",
-    "test": "mocha tests/*.js",
+    "test": "./node_modules/mocha/bin/mocha tests/*.js tests/*.js",
     "cover": "nyc mocha . && nyc report --reporter=text-lcov | ./node_modules/coveralls/bin/coveralls.js"
   },
   "dependencies": {
