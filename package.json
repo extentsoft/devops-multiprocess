@@ -13,7 +13,7 @@
     "start": "node .",
     "secure": "nsp check",
     "test": "./node_modules/mocha/bin/mocha tests/*.js tests/*.js",
-    "test-windows": "node_modules/mocha/bin/mocha tests/*.js tests/*.js",
+    "test-windows": "mocha tests/*.js tests/*.js",
     "cover": "nyc mocha . && nyc report --reporter=text-lcov | ./node_modules/coveralls/bin/coveralls.js"
   },
   "dependencies": {
