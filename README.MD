@@ -10,7 +10,18 @@
 4. [Markdown Document](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 5. [Loopback+Express](http://loopback.io/doc/en/lb3/Add-a-custom-Express-route.html)
 6. [Express+Travis](https://github.com/expressjs/express)
+7. [Coveralls+Nodejs](https://github.com/nickmerwin/node-coveralls)(https://github.com/istanbuljs/nyc)
+8. 
 
 
 # Modules
 1. [NSP - Vulnerability Scanning](https://www.npmjs.com/package/nsp)
+
+
+# Coverall
+`
+nyc npm test
+export COVERALLS_REPO_TOKEN=bCR55184qbEspsWrLiuDu5Jfb38IPwa1p
+echo $COVERALLS_REPO_TOKEN
+nyc npm test && nyc report --reporter=text-lcov | ./node_modules/coveralls/bin/coveralls.js
+`
