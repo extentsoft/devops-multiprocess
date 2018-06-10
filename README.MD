@@ -1,9 +1,8 @@
 # Extentsoft DevOps Multiprocess Sample
 
 ![alt text](https://api.travis-ci.org/extentsoft/devops-multiprocess.svg?branch=master)
+[![Build status](https://ci.appveyor.com/api/projects/status/1i9hlony3hij2ra4?svg=true)](https://ci.appveyor.com/project/extentsoft/devops-multiprocess)
 [![Coverage Status](https://coveralls.io/repos/github/extentsoft/devops-multiprocess/badge.svg?branch=master)](https://coveralls.io/github/extentsoft/devops-multiprocess?branch=master)
-[![Windows status](https://ci.appveyor.com/api/projects/status/1i9hlony3hij2ra4?svg=true)](https://ci.appveyor.com/project/extentsoft/devops-multiprocess)
-
 
 
 
