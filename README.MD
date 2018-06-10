@@ -2,7 +2,11 @@
 
 ![alt text](https://api.travis-ci.org/extentsoft/devops-multiprocess.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/extentsoft/devops-multiprocess/badge.svg?branch=master)](https://coveralls.io/github/extentsoft/devops-multiprocess?branch=master)
-[![Windows Build](https://ci.appveyor.com/api/projects/status/1i9hlony3hij2ra4?svg=true)](https://ci.appveyor.com/project/extentsoft/devops-multiprocess)
+[![Build](https://ci.appveyor.com/api/projects/status/1i9hlony3hij2ra4?svg=true)](https://ci.appveyor.com/project/extentsoft/devops-multiprocess)
+[![Windows Build][https://ci.appveyor.com/api/projects/status/1i9hlony3hij2ra4?svg=true]][https://ci.appveyor.com/project/extentsoft/devops-multiprocess]
+
+
+
 
 # References
 1. [Basic Travis-Github](https://github.com/dwyl/learn-travis)
