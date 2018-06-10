@@ -1,6 +1,6 @@
 {
   "name": "devops-multiprocess",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "main": "server/server.js",
   "engines": {
@@ -11,7 +11,6 @@
     "start-dev-express": "PORT=3001 node ./webs/service_mgmt/bin/www",
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint && nsp check",
     "secure": "nsp check",
     "test": "mocha tests/*.js"
   },
@@ -29,7 +28,8 @@
     "loopback-component-explorer": "^6.0.0",
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5",
-    "strong-error-handler": "^2.0.0"
+    "strong-error-handler": "^2.0.0",
+    "winston": "^2.4.2"
   },
   "devDependencies": {
     "chai": "^4.1.2",
